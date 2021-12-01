@@ -21,4 +21,4 @@ It's that time again. At least I will be doing it as it is **live** this time.
 ## Progress
 | |Title|Category|Link|Complete?|
 |:--|:---|:--:|:---:| :---: |
-|Day 01| The Aftermath!|Web Exploitation|[Day 1](./Day01/Readme.md)|![img](https://img.shields.io/badge/-NotAvailable-orange)|
+|Day 01| The Aftermath!|Web Exploitation|[Day 1](./Day01/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
