@@ -21,7 +21,7 @@ Now to enumerate using gobuster:
 ```
 $ gobuster dir -u http://10.10.144.142 -w /usr/share/seclists/Discovery/Web-Content/common.txt -o gobuster.log 
 ```
-which gane me the output of:
+which gave me the output of:
 
 ```
 /.hta                 (Status: 403) [Size: 278]
@@ -41,7 +41,7 @@ Just tried a few defaults, didn't expect it to be `administrator` straight away.
 
 ### Access the admin panel. What is the value of the flag? `***{***********}`
 
-The flag was at the bottopm of the panel page.
+The flag was at the bottom of the panel page.
 
 ![img](Screenshot2.png)
 
