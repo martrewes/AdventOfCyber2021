@@ -23,7 +23,7 @@ It's that time again. At least I will be doing it as it is **live** this time.
 |:--|:---|:--:|:---:|:---:|
 |Day 01| The Aftermath!|Web Exploitation|[Day 1](./Day01/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 02|Elf HR Problems|Web Explotation|[Day 2](Day02/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
-|Day 03| | | | |
+|Day 03|Christmas Blackout|Web Exploitation|[Day 3](Day03/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 04| | | | |
 |Day 05| | | | |
 |Day 06| | | | |

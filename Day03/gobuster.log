@@ -1,0 +1,8 @@
+/.hta                 (Status: 403) [Size: 278]
+/.htaccess            (Status: 403) [Size: 278]
+/.htpasswd            (Status: 403) [Size: 278]
+/admin                (Status: 301) [Size: 314] [--> http://10.10.144.142/admin/]
+/assets               (Status: 301) [Size: 315] [--> http://10.10.144.142/assets/]
+/index.html           (Status: 200) [Size: 5061]
+/javascript           (Status: 301) [Size: 319] [--> http://10.10.144.142/javascript/]
+/server-status        (Status: 403) [Size: 278]
