@@ -25,8 +25,8 @@ It's that time again. At least I will be doing it as it is **live** this time.
 |Day 02|Elf HR Problems|Web Explotation|[Day 2](Day02/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 03|Christmas Blackout|Web Exploitation|[Day 3](Day03/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 04|Santa's Running Behind|Web Exploitation|[Day 4](Day04/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
-|Day 05| | | | |
-|Day 06| | | | |
+|Day 05|Pesky Elf Forum|Web Exploitation|[Day 5](Day05/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
+|Day 06|Patch Management is Hard|Web Exploitation|[Day 6](Day06/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 07| | | | |
 |Day 08| | | | |
 |Day 09| | | | |
