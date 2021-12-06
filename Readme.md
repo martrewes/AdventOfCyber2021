@@ -1,8 +1,5 @@
 # Advent of Cyber 2021 Progress
 
-> Starts 2021/12/01!  
-> *Just putting a structure in place*
-
 It's that time again. At least I will be doing it as it is **live** this time. 
 ## Progress
 | |Title|Category|Link|Complete?|
