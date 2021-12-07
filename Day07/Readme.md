@@ -20,7 +20,8 @@ switched to db flagdb
 ```
 
 Answer: `THM{8814a5e6662a9763f7df23ee59d944f9}`
-We discussed how to bypass login pages as an admin. Can you log into the application that Grinch Enterprise controls as admin and retrieve the flag? `***{********************************}`
+
+### We discussed how to bypass login pages as an admin. Can you log into the application that Grinch Enterprise controls as admin and retrieve the flag? `***{********************************}`
 
 >Use the knowledge given in AoC3 day 4 to setup and run Burp Suite proxy to intercept the HTTP request for the login page. Then modify the POST parameter.
 
