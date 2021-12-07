@@ -10,7 +10,7 @@ It's that time again. At least I will be doing it as it is **live** this time.
 |Day 04|Santa's Running Behind|Web Exploitation|[Day 4](Day04/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 05|Pesky Elf Forum|Web Exploitation|[Day 5](Day05/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 06|Patch Management is Hard|Web Exploitation|[Day 6](Day06/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
-|Day 07| | | | |
+|Day 07|Migration Without Security|[Web Exploitation|[Day 7](Day07/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 08| | | | |
 |Day 09| | | | |
 |Day 10| | | | |
