@@ -11,7 +11,7 @@ It's that time again. At least I will be doing it as it is **live** this time.
 |Day 05|Pesky Elf Forum|Web Exploitation|[Day 5](Day05/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 06|Patch Management is Hard|Web Exploitation|[Day 6](Day06/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 07|Migration Without Security|Web Exploitation|[Day 7](Day07/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
-|Day 08| | | | |
+|Day 08|Santa's Bag of Toys|Special by John Hammond|[Day 8](Day08/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 09| | | | |
 |Day 10| | | | |
 
