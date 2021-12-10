@@ -13,7 +13,7 @@ It's that time again. At least I will be doing it as it is **live** this time.
 |Day 07|Migration Without Security|Web Exploitation|[Day 7](Day07/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 08|Santa's Bag of Toys|Special by John Hammond|[Day 8](Day08/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 09|Where is All This Data Going|Networking|[Day 9](Day09/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
-|Day 10| | | | |
+|Day 10|Offensive is the Best Defence|Networking|[Day 10](Day10/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 
 ## Sypnosis
 >It's the eve of 30th November - McSkidy sits in her large office with a cup of hot cocoa, reminiscing over her stressful times at the Best Festival Company. Since her management of the Christmas Monster's cyber attacks last December, she'd been promoted to Chief Information Security Office (CISO) and has managed to build a world-class security team. She made a promise to never let Christmas get affected by cyber incidents and has done everything in her power to prepare the best festival company for any incidents, and assist Santa in delivering presents globally with no disruptions!
