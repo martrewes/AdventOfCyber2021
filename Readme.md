@@ -17,7 +17,7 @@ It's that time again. At least I will be doing it as it is **live** this time.
 |Day 11|Where Are the Reindeers?|Networking|[Day 11](Day11/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 12|Sharing Without Caring|Networking|[Day 12](Day12/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 
-## Sypnosis
+## Synopsis
 >It's the eve of 30th November - McSkidy sits in her large office with a cup of hot cocoa, reminiscing over her stressful times at the Best Festival Company. Since her management of the Christmas Monster's cyber attacks last December, she'd been promoted to Chief Information Security Office (CISO) and has managed to build a world-class security team. She made a promise to never let Christmas get affected by cyber incidents and has done everything in her power to prepare the best festival company for any incidents, and assist Santa in delivering presents globally with no disruptions!
 >
 >As she grins to herself "After all we've done, what could go wrong", Elf McAssistant runs into her office and gasps "All our security analysts have missed their last shift and no security personnel can be found in the building". McSkidy jumps out of her chair and spills her hot cocoa all over herself "WHAT".
