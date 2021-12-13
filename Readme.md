@@ -16,6 +16,7 @@ It's that time again. At least I will be doing it as it is **live** this time.
 |Day 10|Offensive is the Best Defence|Networking|[Day 10](Day10/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 11|Where Are the Reindeers?|Networking|[Day 11](Day11/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 |Day 12|Sharing Without Caring|Networking|[Day 12](Day12/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
+|Day 13|They Lost The Plan!|Networking|[Day 13](Day13/Readme.md)|![img](https://img.shields.io/badge/-Yes-green)|
 
 ## Synopsis
 >It's the eve of 30th November - McSkidy sits in her large office with a cup of hot cocoa, reminiscing over her stressful times at the Best Festival Company. Since her management of the Christmas Monster's cyber attacks last December, she'd been promoted to Chief Information Security Office (CISO) and has managed to build a world-class security team. She made a promise to never let Christmas get affected by cyber incidents and has done everything in her power to prepare the best festival company for any incidents, and assist Santa in delivering presents globally with no disruptions!
