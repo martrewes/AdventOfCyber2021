@@ -24,6 +24,7 @@ It's that time again. At least I will be doing it as it is **live** this time.
 |[Day 18](Day18/Readme.md)|Playing With Containers|Cloud|![img](https://img.shields.io/badge/-Yes-green)|
 |[Day 19](Day19/Readme.md)|Something Phishy Is Going On|Blue Teaming|![img](https://img.shields.io/badge/-Yes-green)|
 |[Day 20](Day20/Readme.md)|What's the Worst That Could Happen?|Blue Teaming|![img](https://img.shields.io/badge/-Yes-green)|
+|[Day 21](Day21/Readme.md)|Needles In Computer Stacks|Blue Teaming|![img](https://img.shields.io/badge/-Yes-green)|
 
 ## Synopsis
 >It's the eve of 30th November - McSkidy sits in her large office with a cup of hot cocoa, reminiscing over her stressful times at the Best Festival Company. Since her management of the Christmas Monster's cyber attacks last December, she'd been promoted to Chief Information Security Office (CISO) and has managed to build a world-class security team. She made a promise to never let Christmas get affected by cyber incidents and has done everything in her power to prepare the best festival company for any incidents, and assist Santa in delivering presents globally with no disruptions!
