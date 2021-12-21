@@ -1,4 +1,4 @@
-# `[Blue Teaming] Needles In Computer Stacks
+# `[Blue Teaming]` Needles In Computer Stacks
 
 ## Story
 > Grinch Enterprises have been very sneaky this year - using multiple attack vectors (both know and unknown) to wreak havoc across the Best Festival Company. It's 4 days from Christmas and there's still so much work to do! McBlue, the only technical person, has suggested using automation and tooling to detect malicious files across the network. Can you work with him to remove any malicious files from the network?
