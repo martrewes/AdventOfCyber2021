@@ -25,8 +25,58 @@ Grinch.Enterprises.2021@gmail.com
 </details>
 
 ### What is the mailbox password you found? `*******************`
+
+<details>
+  <summary>Answer:</summary>
+
+```
+S@ntai$comingt0t0wn
+```
+</details>
+
 ### What is the subject of the email? `********* ********`
+
+<details>
+  <summary>Answer:</summary>
+
+```
+Christmas Wishlist
+```
+</details>
+
 ### What port is the script using to exfiltrate data from the North Pole? `***`
+
+<details>
+  <summary>Answer:</summary>
+
+```
+587
+```
+</details>
+
 ### What is the flag hidden found in the document that Grinch Enterprises left behind? `********************` 
 >(Hint: use the following command oledump.py -s {stream number} -d, the answer will be in the caption).
+
+```shell
+$ python oledump.py Santa_Claus_Naughty_List_2021.doc -s 7 -d 
+```
+
+<details>
+  <summary>Answer:</summary>
+
+```
+YouFoundGrinchCookie
+```
+</details>
+
 ### There is still a second flag somewhere... can you find it on the machine? `****************`
+
+There was an [image](Pictures/Grinch2021/flag2.PNG) in `Pictures\Grinch2021`
+
+<details>
+  <summary>Answer:</summary>
+
+```
+S@nt@c1Au$IsrEAl
+```
+</details>
