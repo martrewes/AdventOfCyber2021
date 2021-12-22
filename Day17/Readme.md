@@ -16,7 +16,13 @@
 
 I right-clicked the image and opened it in a new tab. This showed me the URL it was coming from.
 
-Answer: `images.bestfestivalcompany.com`
+<details>
+  <summary>Answer:</summary>
+
+```
+images.bestfestivalcompany.com
+```
+</details>
 
 ### What is the message left in the flag.txt object from that bucket? `**** **** ** *** **** ***** **** **** *** ***** ** ** **** ** *****`
 
@@ -27,7 +33,13 @@ $ cat flag.txt
 It's easy to get your elves data when you leave it so easy to find!
 ```
 
-Answer: `It's easy to get your elves data when you leave it so easy to find!`
+<details>
+  <summary>Answer:</summary>
+
+```
+It's easy to get your elves data when you leave it so easy to find!
+```
+</details>
 
 ### What other file in that bucket looks interesting to you? `*********.***`
 
@@ -46,7 +58,13 @@ $ aws s3 ls s3://images.bestfestivalcompany.com/ --no-sign-request
 
 Out of all of those, I would say `wp-backup.zip` simply as it could contain a lot of information.
 
-Answer: `wp-backup.zip`
+<details>
+  <summary>Answer:</summary>
+
+```
+wp-backup.zip
+```
+</details>
 
 ### What is the AWS Access Key ID in that file? `********************`
 
@@ -66,7 +84,13 @@ define('S3_UPLOADS_SECRET', 'Y+2fQBoJ+X9N0GzT4dF5kWE0ZX03n/KcYxkS1Qmc');
 define('S3_UPLOADS_REGION', 'us-east-1');
 ...
 ```
-Answer: `AKIAQI52OJVCPZXFYAOI`
+<details>
+  <summary>Answer:</summary>
+
+```
+AKIAQI52OJVCPZXFYAOI
+```
+</details>
 
 ### What is the AWS Account ID that access-key works for? `************`
 
@@ -84,7 +108,13 @@ $ aws sts get-access-key-info --access-key-id AKIAQI52OJVCPZXFYAOI --profile mar
 }
 
 ```
-Answer: `019181489476`
+<details>
+  <summary>Answer:</summary>
+
+```
+019181489476
+```
+</details>
 
 ### What is the Username for that access-key? `***********.***`
 
@@ -96,7 +126,13 @@ $ aws sts get-caller-identity --profile martrewes
     "Arn": "arn:aws:iam::019181489476:user/ElfMcHR@bfc.com"
 }
 ```
-Answer: `ElfMcHR@bfc.com`
+<details>
+  <summary>Answer:</summary>
+
+```
+ElfMcHR@bfc.com
+```
+</details>
 
 
 ### There is an EC2 Instance in this account. Under the TAGs, what is the Name of the instance? `*********`
@@ -105,7 +141,13 @@ Answer: `ElfMcHR@bfc.com`
 aws ec2 describe-instances --output text --profile martrewes > instances.txt
 ```
 
-Answer: `HR-Portal`
+<details>
+  <summary>Answer:</summary>
+
+```
+HR-Portal
+```
+</details>
 
 ### What is the database password stored in Secrets Manager? `***********`
 
@@ -139,4 +181,10 @@ $ aws secretsmanager get-secret-value --secret-id HR-Password --profile martrewe
 }
 ```
 
-Answer: `Winter2021!`
+<details>
+  <summary>Answer:</summary>
+
+```
+Winter2021!
+```
+</details>

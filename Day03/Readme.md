@@ -33,11 +33,25 @@ which gave me the output of:
 /javascript           (Status: 301) [Size: 319] [--> http://10.10.144.142/javascript/]
 /server-status        (Status: 403) [Size: 278]
 ```
-Answer: `admin`
+<details>
+  <summary>Answer:</summary>
+
+```
+admin
+```
+</details>
 
 ### In your web browser, try some default credentials on the newly discovered login form for the "administrator" user. What is the password? `*************`
 
-Just tried a few defaults, didn't expect it to be `administrator` straight away.
+Just tried a few defaults.
+
+<details>
+  <summary>Answer:</summary>
+
+```
+administrator
+```
+</details>
 
 ### Access the admin panel. What is the value of the flag? `***{***********}`
 
@@ -45,4 +59,10 @@ The flag was at the bottom of the panel page.
 
 ![img](Screenshot2.png)
 
-`THM{ADM1N_AC3SS}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{ADM1N_AC3SS}
+```
+</details>

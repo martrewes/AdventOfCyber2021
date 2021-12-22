@@ -61,4 +61,10 @@ Once logged in, go to the settings page again, and this time, you'll discover an
 
 Disable the plugin, and you'll be awarded a flag which can be entered below.
 
-The flag appeared: `THM{NO_MORE_BUTTMAS}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{NO_MORE_BUTTMAS}
+```
+</details>

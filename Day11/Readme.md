@@ -20,13 +20,25 @@ PORT     STATE SERVICE
 3389/tcp open  ms-wbt-server
 ```
 
-Answer: `1433`
+<details>
+  <summary>Answer:</summary>
+
+```
+1433
+```
+</details>
 
 >Let’s try to run, `sqsh -S 10.10.84.3 -U sa -P t7uLKzddQzVjVFJp`
 
 ### If the connection is successful, you will get a prompt. What is the prompt that you have received? `**`
 
-Answer: `1>`
+<details>
+  <summary>Answer:</summary>
+
+```
+1>
+```
+</details>
 
 >McDatabaseAdmin told us the database name is `reindeer` and it has three tables:
 >
@@ -61,7 +73,13 @@ Answer: `1>`
 
 ### We can see four columns in the table displayed above: id, first (name), last (name), and nickname. What is the first name of the reindeer of id 9? `*******`
 
-Answer: `Rudolph`
+<details>
+  <summary>Answer:</summary>
+
+```
+Rudolph
+```
+</details>
 
 ### Check the table schedule. What is the destination of the trip scheduled on December 7? `******`
 
@@ -70,7 +88,13 @@ Answer: `Rudolph`
 2> go
 ```
 
-Answer: `Prague`
+<details>
+  <summary>Answer:</summary>
+
+```
+Prague
+```
+</details>
 
 ### Check the table presents. What is the quantity available for the present “Power Bank”? `*****`
 
@@ -78,7 +102,13 @@ Answer: `Prague`
 1> SELECT * FROM reindeer.dbo.presents;
 2> go
 ```
-Answer: `25000`
+<details>
+  <summary>Answer:</summary>
+
+```
+25000
+```
+</details>
 
 >Some MS SQL Servers have `xp_cmdshell` enabled. If this is the case, we might have access to something similar to a command prompt.
 >
@@ -170,4 +200,10 @@ Answer: `25000`
 
 ```
 
-Answer: `THM{YjtKeUy2qT3v5dDH}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{YjtKeUy2qT3v5dDH}
+```
+</details>

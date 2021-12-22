@@ -6,13 +6,33 @@
 
 
 ### After finding Santa's account, what is their position in the company? `*** *****`
-`The Boss!`
+<details>
+  <summary>Answer:</summary>
+
+```
+The Boss!
+```
 
 ### After finding McStocker's account, what is their position in the company? `***** ******`
-`Build Manager` 
+<details>
+  <summary>Answer:</summary>
+
+```
+Build Manager
+```
 
 ### After finding the account responsible for tampering, what is their position in the company? `******** *******`
-`Mischief Manager`
+<details>
+  <summary>Answer:</summary>
+
+```
+Mischief Manager
+```
 
 ### What is the received flag when McSkidy fixes the Inventory Management System? `***{***_****_********}`
-`THM{AOC_IDOR_2B34BHI3}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{AOC_IDOR_2B34BHI3}
+```

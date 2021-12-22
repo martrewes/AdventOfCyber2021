@@ -24,7 +24,13 @@ PORT     STATE SERVICE
 3389/tcp open  ms-wbt-server
 ```
 
-Answer: `7`
+<details>
+  <summary>Answer:</summary>
+
+```
+7
+```
+</details>
 
 >Network File System (NFS) is a protocol that allows the ability to transfer files between different computers and is available on many systems, including MS Windows and Linux. Consequently, NFS makes it easy to share files between various operating systems.
 >
@@ -32,7 +38,13 @@ Answer: `7`
 
 ### Which port is detected by Nmap as NFS or using the mountd service? `****`
 
-Answer: `2049`
+<details>
+  <summary>Answer:</summary>
+
+```
+2049
+```
+</details>
 
 >Now that we have discovered an NFS service is listening, let’s check what files are being shared. We can do this using the command showmount. In the terminal below, we run `showmount -e 10.10.207.192`. The `-e` or `--exports` show the NFS server’s export list.
 
@@ -47,11 +59,23 @@ Export list for 10.10.207.192:
 /confidential (everyone)
 ```
 
-Answer: `4`
+<details>
+  <summary>Answer:</summary>
+
+```
+4
+```
+</details>
 
 ### How many shares show “everyone”? `*`
 
-Answer: `3`
+<details>
+  <summary>Answer:</summary>
+
+```
+3
+```
+</details>
 
 >Let’s try to mount the shares we have discovered. We can create a directory on the AttackBox using `mkdir tmp1`, where `tmp1` is the directory’s name. Then we can use this directory  we created to mount the public NFS share using: `mount 10.10.207.192:/my-notes tmp1`.
 >
@@ -78,7 +102,14 @@ Release Date: June, 2001 [eBook #2680]
 Language: English
 ```
 
-Answer: `Meditations`
+<details>
+  <summary>Answer:</summary>
+
+```
+Meditations
+```
+</details>
+
 >It seems that Grinch Enterprises has forgotten their SSH keys on our system. One of the shares contains a private key used for SSH authentication (id_rsa).
 
 ### What is the name of the share? `************`
@@ -89,7 +120,13 @@ $ ls tmp1/
 ssh
 ```
 
-Answer: `Confidential`
+<details>
+  <summary>Answer:</summary>
+
+```
+Confidential
+```
+</details>
 
 ### We can calculate the MD5 sum of a file using md5sum FILENAME. What is the MD5 sum of id_rsa? `********************************`
 
@@ -98,4 +135,10 @@ $ md5sum tmp1/ssh/id_rsa
 3e2d315a38f377f304f5598dc2f044de  tmp1/ssh/id_rsa
 ```
 
-Answer: `3e2d315a38f377f304f5598dc2f044de`
+<details>
+  <summary>Answer:</summary>
+
+```
+3e2d315a38f377f304f5598dc2f044de
+```
+</details>

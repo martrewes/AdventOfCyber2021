@@ -16,7 +16,13 @@ It was a bit of a pain though seeing up the payload, as a cluster bomb attack re
 
 ![img](Screenshot.png)
 
-`cookies`
+<details>
+  <summary>Answer:</summary>
+
+```
+cookies
+```
+</details>
 
 ### What is the flag in Santa's itinerary? `***{**************}`
 
@@ -24,4 +30,10 @@ I used this information to log into the site. Flag was at the bottom.
 
 ![img](Screenshot2.png)
 
-`THM{SANTA_DELIVERS}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{SANTA_DELIVERS}
+```
+</details>

@@ -1,20 +1,38 @@
 # `[Cloud]` Playing With Containers
 
-### Premise
+## Premise
 >Grinch Enterprises has been gloating about their attack on an underground forum. We know they were specifically targeting organizations in a campaign they've themed "Advent of Cyber" (AOC) - what a frustrating coincidence. Tracing the user back over time - we also encountered a reference to using AWS Elastic Container Registry (ECR) to store container images they use as infrastructure in their attacks. Let's see if we can find out more about the attack tooling Grinch Enterprises is using.
 
 
 ### What command will list container images stored in your local container registry? `****** ******`
 
-Answer: `docker images`
+<details>
+  <summary>Answer:</summary>
+
+```
+docker images
+```
+</details>
 
 ### What command will allow you to save a docker image as a tar archive? `****** ****`
 
-Answer: `docker save`
+<details>
+  <summary>Answer:</summary>
+
+```
+docker save
+```
+</details>
 
 ### What is the name of the file (including file extension) for the configuration, repository tags, and layer hash values stored in a container image? `********.****`
 
-Answer: `manifest.json`
+<details>
+  <summary>Answer:</summary>
+
+```
+manifest.json
+```
+</details>
 
 ### What is the token value you found for the bonus challenge? `********************************`
 
@@ -53,4 +71,10 @@ $ cat root/envconsul/config.hcl | grep 'token'
 ...
 ```
 
-Answer: `7095b3e9300542edadbc2dd558ac11fa`
+<details>
+  <summary>Answer:</summary>
+
+```
+7095b3e9300542edadbc2dd558ac11fa
+```
+</details>

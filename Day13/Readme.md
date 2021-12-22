@@ -21,7 +21,13 @@ WDAGUtilityAccount
 The command completed successfully.
 ```
 
-Answer: `pepper`
+<details>
+  <summary>Answer:</summary>
+
+```
+pepper
+```
+</details>
 
 ### What is the OS version? `**.*.***** */* ***** *****`
 
@@ -42,7 +48,13 @@ System Boot Time:          12/13/2021, 3:31:12 PM
 ...
 ```
 
-Answer: `10.0.17763 N/A Build 17763`
+<details>
+  <summary>Answer:</summary>
+
+```
+10.0.17763 N/A Build 17763
+```
+</details>
 
 ### What backup service did you find running on the system? `**********`
 
@@ -58,20 +70,38 @@ ExitCode  Name                                      ProcessId  StartMode  State 
 ...
 ```
 
-Answer: `IperiusSvc`
+<details>
+  <summary>Answer:</summary>
+
+```
+IperiusSvc
+```
+</details>
 
 ### What is the path of the executable for the backup service you have identified? `*:******** ***** ************* *********************.***` 
 
 *Use `config` instead of `brief` in the above*
 
-Answer: `C:\Program Files (x86)\Iperius Backup\IperiusService.exe`
+<details>
+  <summary>Answer:</summary>
+
+```
+C:\Program Files (x86)\Iperius Backup\IperiusService.exe
+```
+</details>
 
 >Run the whoami command on the connection you have received on your attacking machine. 
 ### What user do you have? `*************************` 
 
 Just followed the steps outlined below, then ran `whoami` once `nc` had made the connection.
 
-Answer: `the-grinch-hack\thegrinch`
+<details>
+  <summary>Answer:</summary>
+
+```
+the-grinch-hack\thegrinch
+```
+</details>
 
 ### What is the content of the flag.txt file? `*************`
 
@@ -79,14 +109,26 @@ Navigated to the Users home directory, looked in Desktop and Documents. Found fi
 
 `> type flag.txt`
 
-Answer: `THM-736635221`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM-736635221
+```
+</details>
 
 >The Grinch forgot to delete a file where he kept notes about his schedule! 
 ### Where can we find him at 5:30? `**********`
 
 The same folder had a file called Schedule.txt
 
-Answer: `jazzercize`
+<details>
+  <summary>Answer:</summary>
+
+```
+jazzercize
+```
+</details>
 
 ---
 ## Tutorial

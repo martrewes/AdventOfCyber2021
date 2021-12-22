@@ -19,19 +19,43 @@ PORT   STATE SERVICE
 22/tcp open  ssh
 80/tcp open  http
 ```
-Answer: `2`
+<details>
+  <summary>Answer:</summary>
+
+```
+2
+```
+</details>
 
 ### What is the smallest port number that is open? `**`
 
-Answer: `22`
+<details>
+  <summary>Answer:</summary>
+
+```
+22
+```
+</details>
 
 ### What is the service related to the highest port number you found in the first question? `****`
 
-Answer: `http`
+<details>
+  <summary>Answer:</summary>
+
+```
+http
+```
+</details>
 
 ### Now run nmap -sS 10.10.141.56. Did you get the same results? (Y/N) `*`
 
-Answer: `Y`
+<details>
+  <summary>Answer:</summary>
+
+```
+Y
+```
+</details>
 
 ### If you want Nmap to detect the version info of the services installed, you can use nmap -sV 10.10.141.56. What is the version number of the web server? `****** ***** *.*.**`
 
@@ -45,7 +69,13 @@ PORT   STATE SERVICE VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
-Answer: `Apache httpd 2.4.49`
+<details>
+  <summary>Answer:</summary>
+
+```
+Apache httpd 2.4.49
+```
+</details>
 
 >By checking the [vulnerabilities related to the installed web server](https://httpd.apache.org/security/vulnerabilities_24.html), you learn that there is a critical vulnerability that allows path traversal and remote code execution. Now you can tell McSkidy that Grinch Enterprises used this vulnerability. 
 
@@ -53,7 +83,13 @@ Answer: `Apache httpd 2.4.49`
 
 Used the link provided.
 
-Answer: `CVE-2021-42013`
+<details>
+  <summary>Answer:</summary>
+
+```
+CVE-2021-42013
+```
+</details>
 
 >You are putting the pieces together and have a good idea of how your web server was exploited. McSkidy is suspicious that the attacker might have installed a backdoor. She asks you to check if there is some service listening on an uncommon port, i.e. outside the 1000 common ports that Nmap scans by default. She explains that adding -p1-65535 or -p- will scan all 65,535 TCP ports instead of only scanning the 1000 most common ports. 
 
@@ -67,7 +103,13 @@ PORT      STATE SERVICE
 20212/tcp open  unknown
 ```
 
-Answer: `20212`
+<details>
+  <summary>Answer:</summary>
+
+```
+20212
+```
+</details>
 
 ### What is the name of the program listening on the newly discovered port?  `*******`
 
@@ -81,4 +123,10 @@ PORT      STATE SERVICE VERSION
 20212/tcp open  telnet  Linux telnetd
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
-Answer: `telnetd`
+<details>
+  <summary>Answer:</summary>
+
+```
+telnetd
+```
+</details>

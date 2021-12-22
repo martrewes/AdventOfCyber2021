@@ -9,14 +9,26 @@ Deploy the attached VM and look around. What is the entry point for our web appl
 
 When I opened the webpage, I could see the entry point in the URL: https://10-10-140-173.p.thmlabs.com./index.php?**_err_**=error.txt
 
-Answer: `err`
+<details>
+  <summary>Answer:</summary>
+
+```
+err
+```
+</details>
 ### Use the entry point to perform LFI to read the /etc/flag file. What is the flag? `***{********************************}`
 
 Using this I was then able to change the url to show what I wanted it to:
 
 `https://10-10-140-173.p.thmlabs.com/index.php?err=./../../../../../etc/flag`
 
-Answer: `THM{d29e08941cf7fe41df55f1a7da6c4c06}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{d29e08941cf7fe41df55f1a7da6c4c06}
+```
+</details>
 
 ### Use the PHP filter technique to read the source code of the index.php. What is the `$flag` variable's value? `***{********************************}`
 
@@ -25,7 +37,13 @@ Using the same method as above eccept also using PHP filters, I navigated to the
 
 This spat out a bunch of base64 encoded text, which I then used CyberChef to convert from. The flag was easily viewable at the top.
 
-Answer: `THM{791d43d46018a0d89361dbf60d5d9eb8}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{791d43d46018a0d89361dbf60d5d9eb8}
+```
+</details>
 
 >McSkidy forgot his login credential. Can you help him to login in order to recover one of the server's passwords?
 
@@ -38,7 +56,13 @@ Same as above really, just changed the location:
 
 This gave me the info.
 
-Answer: `McSkidy:A0C315Aw3s0m`
+<details>
+  <summary>Answer:</summary>
+
+```
+McSkidy:A0C315Aw3s0m
+```
+</details>
 
 > Use the credentials to login into the web application. Help McSkidy to recover the server's password. 
 
@@ -46,7 +70,13 @@ Answer: `McSkidy:A0C315Aw3s0m`
 
 Logged in using those credentials, then clicked on Password Recovery. Passwords were listed in plain text.
 
-Answer: `THM{552f313b52e3c3dbf5257d8c6db7f6f1}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{552f313b52e3c3dbf5257d8c6db7f6f1}
+```
+</details>
 
 > The web application logs all users' requests, and only authorized users can read the log file. Use the LFI to gain RCE via the log file page. 
 
@@ -61,4 +91,10 @@ Then using the first stage of the LFI, I was able to execute the php payload sen
 
 The hostname was in the system category of the table.
 
-Answer: `lfi-aoc-awesome-59aedca683fff9261263bb084880c965`
+<details>
+  <summary>Answer:</summary>
+
+```
+lfi-aoc-awesome-59aedca683fff9261263bb084880c965
+```
+</details>

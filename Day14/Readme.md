@@ -37,7 +37,13 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 
 ```
 
-Answer: `4`
+<details>
+  <summary>Answer:</summary>
+
+```
+4
+```
+</details>
 
 ### How many scripts do you see in the /home/thegrinch/scripts folder? `*`
 
@@ -49,7 +55,13 @@ mcskidy@ip-10-10-108-126:/home/thegrinch/scripts$ ls
 check.sh  cleanup.sh  loot.sh  test.sh
 ```
 
-Answer: `4`
+<details>
+  <summary>Answer:</summary>
+
+```
+4
+```
+</details>
 
 ### What are the five characters following $6$G in pepper's password hash? `*****`
 
@@ -57,7 +69,13 @@ I had to change the loot.sh script to cat out `/etc/shadow`. Then navigated to h
 
 ![img](etcShadowScreenshot.jpg)
 
-Answer: `ZUP42`
+<details>
+  <summary>Answer:</summary>
+
+```
+ZUP42
+```
+</details>
 
 ### What is the content of the flag.txt file on the Grinch's user’s desktop? `***************************`
 
@@ -67,4 +85,10 @@ This same process can be used to display the contents of `flag.txt`
 
 ![img](passScreenshot.jpg)
 
-Answer: `DI3H4rdIsTheBestX-masMovie!`
+<details>
+  <summary>Answer:</summary>
+
+```
+DI3H4rdIsTheBestX-masMovie!
+```
+</details>

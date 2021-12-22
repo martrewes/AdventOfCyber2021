@@ -19,7 +19,13 @@ switched to db flagdb
 { "_id" : ObjectId("618806af0afbc09bdf42bd6a"), "flag" : "THM{8814a5e6662a9763f7df23ee59d944f9}" }
 ```
 
-Answer: `THM{8814a5e6662a9763f7df23ee59d944f9}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{8814a5e6662a9763f7df23ee59d944f9}
+```
+</details>
 
 ### We discussed how to bypass login pages as an admin. Can you log into the application that Grinch Enterprise controls as admin and retrieve the flag? `***{********************************}`
 
@@ -27,7 +33,13 @@ Answer: `THM{8814a5e6662a9763f7df23ee59d944f9}`
 
 Logged in using Burp suite. Modified the HTTP request to include `[$ne]` in the password. This let me straight in.
 
-Answer: `THM{b6b304f5d5834a4d089b570840b467a8}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{b6b304f5d5834a4d089b570840b467a8}
+```
+</details>
 
 ### Once you are logged in, use the gift search page to list all usernames that have guest roles. What is the flag? `***{********************************}`
 
@@ -35,7 +47,13 @@ This for some reason took me forever as I thought I was doing something wrong. T
 
 I used the URL: `http://10.10.226.237/search?username[$ne]=anything&role=guest`
 
-Answer: `THM{2ec099f2d602cc4968c5267970be1326}`
+<details>
+  <summary>Answer:</summary>
+
+```
+THM{2ec099f2d602cc4968c5267970be1326}
+```
+</details>
 
 
 >Use the gift search page to perform NoSQL injection and retrieve the mcskidy record. 
@@ -45,7 +63,13 @@ Answer: `THM{2ec099f2d602cc4968c5267970be1326}`
 Using similar techniques, I searched using the following URL:
 `http://10.10.226.237/search?username=mcskidy&role[$ne]=guest`
 
-Answer: `ID:6184f516ef6da50433f100f4:mcskidy:admin`
+<details>
+  <summary>Answer:</summary>
+
+```
+ID:6184f516ef6da50433f100f4:mcskidy:admin
+```
+</details>
 
 ---
 

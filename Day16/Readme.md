@@ -24,7 +24,13 @@
 
 It's quite clear in the above message, but translating it says that the operator assigned is GrinchWho31.
 
-Answer: `GrinchWho31`
+<details>
+  <summary>Answer:</summary>
+
+```
+GrinchWho31
+```
+</details>
 
 ### What social media platform is the username associated with? `*******`
 
@@ -32,19 +38,37 @@ First one that came to mind is twitter. Searched there to confirm.
 
 https://twitter.com/GrinchWho31
 
-Answer: `Twitter`
+<details>
+  <summary>Answer:</summary>
+
+```
+Twitter
+```
+</details>
 
 ### What is the cryptographic identifier associated with the operator? `************************************`
 
 The pinned tweet clearly shows this.
 
-Answer: `1GW8QR7CWW3cpvVPGMCF5tZz4j96ncEgrVaR`
+<details>
+  <summary>Answer:</summary>
+
+```
+1GW8QR7CWW3cpvVPGMCF5tZz4j96ncEgrVaR
+```
+</details>
 
 ### What platform is the cryptographic identifier associated with? `*******.**`
 
 The pinned tweet also tells you it is Keybase.io.
 
-Answer: `Keybase.io`
+<details>
+  <summary>Answer:</summary>
+
+```
+Keybase.io
+```
+</details>
 
 ### What is the bitcoin address of the operator? `******************************************`
 
@@ -52,7 +76,13 @@ Clicking on the link will take you to the profile on keybase. This will show the
 
 https://keybase.io/grinchwho31/sigs/1GW8QR7CWW3cpvVPGMCF5tZz4j96ncEgrVaR
 
-Answer: `bc1q5q2w2x6yka5gchr89988p2c8w8nquem6tndw2f`
+<details>
+  <summary>Answer:</summary>
+
+```
+bc1q5q2w2x6yka5gchr89988p2c8w8nquem6tndw2f
+```
+</details>
 
 ### What platform does the operator leak the bitcoin address on? `******`
 
@@ -60,7 +90,13 @@ There is a gist link on the keybase profile. Clicking this takes you to Github.
 
 https://github.com/christmashater31
 
-Answer: `Github`
+<details>
+  <summary>Answer:</summary>
+
+```
+Github
+```
+</details>
 
 ### What is the operator's personal email? `******************.***`
 
@@ -68,10 +104,22 @@ Having a look through the commits of the repositories, you can find this informa
 
 https://github.com/ChristmasHater31/ChristBASHTree/commit/51b5bb9afc4563b791119a3f7942a3edec74b6b1
 
-Answer: `DonteHeath21@gmail.com`
+<details>
+  <summary>Answer:</summary>
+
+```
+DonteHeath21@gmail.com
+```
+</details>
 
 ### What is the operator's real name? `***** *****`
 
 Same place.
 
-Answer: `Donte Heath`
+<details>
+  <summary>Answer:</summary>
+
+```
+Donte Heath
+```
+</details>
